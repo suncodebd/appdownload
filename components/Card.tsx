@@ -14,7 +14,7 @@ const Card: React.FC<{ cards: Icard }> = ({
       </figure>
       <div className="card-body justify-center items-center gap-y-4 ">
         <h2 className="card-title">{title}</h2>
-        <p> Most populer app in the world</p>
+        <p>{appName} Most populer app in the world</p>
         <div className="flex flex-col gap-y-3 bg-slate-200 w-full items-center rounded p-3">
           <h1 className="font-bold text-xl">{app}</h1>
           <h2 className="font-bold text-xl text-blue-600">{promo}</h2>
