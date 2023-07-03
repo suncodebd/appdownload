@@ -23,7 +23,7 @@ const CopyToClipboardButton: React.FC<{ promo: string }> = ({ promo }) => {
     <button
       type="button"
       onClick={handleCopy}
-      className={copy ? "btn btn-success" : "btn btn-outline"}
+      className={copy ? "btn btn-success" : "btn btn-outline text-black"}
     >
       {copy ? "Copied" : "Copy"}
     </button>

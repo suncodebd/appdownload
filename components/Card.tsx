@@ -8,9 +8,9 @@ const Card: React.FC<{ cards: Icard }> = ({
   cards: { app, title, link, promo, img, appName },
 }) => {
   return (
-    <div className="card w-96 bg-base-100 shadow-xl">
+    <div className="card w-80  shadow-xl bg-white text-black">
       <figure>
-        <Image priority width={400} height={300} src={img} alt={promo} />
+        <Image priority width={320} height={320} src={img} alt={promo} />
       </figure>
       <div className="card-body justify-center items-center gap-y-4 ">
         <h2 className="card-title">{title}</h2>
@@ -22,7 +22,7 @@ const Card: React.FC<{ cards: Icard }> = ({
         </div>
 
         <div className="flex flex-col gap-y-3">
-          <h2 className="font-bold text-3xl ">{appName} download</h2>
+          <h2 className="font-bold text-xl ">{appName} download</h2>
           <a
             href={link}
             className=" link btn btn-outline btn-warning no-underline"

@@ -20,7 +20,7 @@ export const cardData: Icard[] = [
   {
     app: "promo code Megapari",
     title: "1xbet app download",
-    promo: "M88",
+    promo: "sunbet360",
     link: "https://refpaiozdg.top/L?tag=d_1849817m_54987c_M88&site=1849817&ad=54987",
     img: "/image/megapari.webp",
     appName: "Megapri",
